@@ -1,5 +1,10 @@
 
 
+```
+To display the formula correctly, please view this page under Chrome with MathJax extension installed
+```
+
+
 ## Industrial Robot Linear Inverted Pendulum*
 
 
