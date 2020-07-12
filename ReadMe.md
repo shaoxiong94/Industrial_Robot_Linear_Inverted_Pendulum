@@ -99,30 +99,30 @@ if we use equations (3) and (4), we can get State Fuctions:
 $$
 \dot{X}= 
 \begin{bmatrix}
-    \dot{x} \\
-    \ddot{x} \\
-    \dot{θ}  \\
+    \dot{x} \\\\
+    \ddot{x} \\\\
+    \dot{θ}  \\\\
     \ddot{θ}
 \end{bmatrix} = 
 
 \begin{bmatrix}
-    0 & 1 & 0 & 0 \\
-    0 & 0  & \frac{-m^2l^2g}{(J+ml^2)(M+m)-m^2l^2} & 0 \\
-    0 & 0 & 0 & 1 \\
+    0 & 1 & 0 & 0 \\\\
+    0 & 0  & \frac{-m^2l^2g}{(J+ml^2)(M+m)-m^2l^2} & 0 \\\\
+    0 & 0 & 0 & 1 \\\\
     0 & 0 & \frac{(M+m)mgl}{(J+ml^2)(M+m)-m^2l^2} & 0
 \end{bmatrix} 
 
 \begin{bmatrix}
-    x \\
-    \dot{x} \\
-    θ \\
+    x \\\\
+    \dot{x} \\\\
+    θ \\\\
     \dot{θ}
 \end{bmatrix} +
 
 \begin{bmatrix}
-    0 \\
-    \frac{J+ml^2}{(J+ml^2)(M+m)-m^2l^2} \\
-    0 \\
+    0 \\\\
+    \frac{J+ml^2}{(J+ml^2)(M+m)-m^2l^2} \\\\
+    0 \\\\
     \frac{-ml}{(J+ml^2)(M+m)-m^2l^2}
 \end{bmatrix}F \ (7)
 $$
@@ -131,25 +131,25 @@ $$
 $$
 Y=
 \begin{bmatrix}
-    x \\
+    x \\\\
     θ
 \end{bmatrix}=
 
 \begin{bmatrix}
-    1 & 0 & 0 & 0 \\
+    1 & 0 & 0 & 0 \\\\
     0 & 0 & 1 & 0
 \end{bmatrix}
 
 \begin{bmatrix}
-    x \\
-    \dot{x} \\
-    θ \\
+    x \\\\
+    \dot{x} \\\\
+    θ \\\\
     \dot{θ}+ 
 \end{bmatrix}  + 
 
 \begin{bmatrix}
-    0 \\
-    0 \\
+    0 \\\\
+    0 
 \end{bmatrix}F \ (8)
 $$
 
@@ -160,30 +160,30 @@ $$
 
 \dot{X}= 
 \begin{bmatrix}
-    \dot{x} \\
-    \ddot{x} \\
-    \dot{θ}  \\
+    \dot{x} \\\\
+    \ddot{x} \\\\
+    \dot{θ}  \\\\
     \ddot{θ}
 \end{bmatrix} = 
 
 \begin{bmatrix}
-    0 & 1 & 0 & 0 \\
-    0 & 0  & \frac{-3mg}{4M+m} & 0 \\
-    0 & 0 & 0 & 1 \\
+    0 & 1 & 0 & 0 \\\\
+    0 & 0  & \frac{-3mg}{4M+m} & 0 \\\\
+    0 & 0 & 0 & 1 \\\\
     0 & 0 & \frac{3(M+m)gθ}{(4M+m)l} & 0
 \end{bmatrix} 
 
 \begin{bmatrix}
-    x \\
-    \dot{x} \\
-    θ \\
+    x \\\\
+    \dot{x} \\\\
+    θ \\\\
     \dot{θ}
 \end{bmatrix} +
 
 \begin{bmatrix}
-    0 \\
-    \frac{4}{4M+m} \\
-    0 \\
+    0 \\\\
+    \frac{4}{4M+m} \\\\
+    0 \\\\
     \frac{-3}{(4M+m)l}
 \end{bmatrix}F \ (9)
 
@@ -193,25 +193,25 @@ $$
 $$
 Y=
 \begin{bmatrix}
-    x \\
+    x \\\\
     θ
 \end{bmatrix}=
 
 \begin{bmatrix}
-    1 & 0 & 0 & 0 \\
+    1 & 0 & 0 & 0 \\\\
     0 & 0 & 1 & 0
 \end{bmatrix}
 
 \begin{bmatrix}
-    x \\
-    \dot{x} \\
-    θ \\
+    x \\\\
+    \dot{x} \\\\
+    θ \\\\
     \dot{θ}+ 
 \end{bmatrix}  + 
 
 \begin{bmatrix}
-    0 \\
-    0 \\
+    0 \\\\
+    0 
 \end{bmatrix}F \ (10)
 $$
 
